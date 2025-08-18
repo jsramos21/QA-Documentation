@@ -1,0 +1,55 @@
+:root {
+  --brand-1: #1e90ff;
+  --brand-2: #ffc107; /* accent */
+}
+body { background:url('Aesthetic-Wallpaper-Cloud.jpg') no-repeat center center fixed;
+  background-size: cover;; color: #e9eef8; }
+.navbar { background: linear-gradient(90deg, #0b1a35, #0b1324); }
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+}
+
+.form-card { border-radius: 18px; }
+.category-badge {
+  background: linear-gradient(135deg, var(--brand-1), #7aa9ff);
+  border: none;
+}
+
+.status-pill { border-radius: 999px; padding: .2rem .6rem; font-weight: 600; }
+.status-passed { background: rgba(25, 135, 84, .15); color: #67e6b8; }
+.status-failed { background: rgba(220, 53, 69, .15); color: #ff9ba8; }
+
+.table thead th { position: sticky; top: 0; background: #0e1a33; }
+.table-dark { --bs-table-bg: #0f1d3b; --bs-table-striped-bg: #0d1933; }
+
+.accordion-button { background: #0f1d3b; color: #e9eef8; }
+.accordion-button:not(.collapsed) { color: #fff; background: #13254a; }
+
+.card-gradient { background: linear-gradient(180deg, #0f1d3b 0%, #0b1324 100%); }
+.btn-brand { background: var(--brand-1); border-color: var(--brand-1); }
+.btn-brand:hover { filter: brightness(1.05); }
+.btn-accent { background: var(--brand-2); border-color: var(--brand-2); color: #111; }
+.empty-hint { color: #9fb2d7; }
+.custom-fontcolor {
+    color: white;
+}
+.form-card option{
+    color : rgb(0, 0, 0)
+}
+.form-card {
+backdrop-filter: blur(10%);
+}
+
+.mb-0 {
+    color: rgb(255, 255, 255);
+}
+.card-gradient {
+  background: rgba(255, 255, 255, 0.1); /* translucent */
+  backdrop-filter: blur(8px);
+}
+.empty-hint {
+    color : black
+}
